@@ -3,7 +3,7 @@
 #include <string.h>
 #include <stdio.h>
 #include <math.h>
-#include <sys/wait.h>
+//#include <sys/wait.h>
 
 #include "td_1_calcul.h"
 #define N 50000
