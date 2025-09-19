@@ -3,3 +3,5 @@ td_*/*.out
 td_*/[^.]*
 test
 test.c
+.idea
+.vscode
