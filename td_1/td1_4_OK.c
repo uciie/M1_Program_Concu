@@ -3,12 +3,18 @@
 #include <unistd.h>
 #include <string.h>
 #include <stdio.h>
+#include <sys/types.h>
+#include <sys/wait.h>
 #include <math.h>
 
 #define N 50000
 
 double maxp, maxf = 0;
 int x_maxp, y_maxp, x_maxf, y_maxf;
+struct result{
+    double max;
+    int x, y;
+};
 
 double f(int x, int y)
 {
