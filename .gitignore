@@ -1,2 +1,5 @@
 td_*/*.exe
 td_*/*.out
+td_*/[^.]*
+test
+test.c
