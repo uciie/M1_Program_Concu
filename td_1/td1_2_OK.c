@@ -38,10 +38,10 @@ int main(void)
                 }
             }
         }
-        wait(NULL);
         read(tube[0], &maxf, sizeof(maxf));
         read(tube[0], &x_maxf, sizeof(x_maxf));
         read(tube[0], &y_maxf, sizeof(y_maxf));
+        wait(NULL);
         printf("fin pere\n");
     }
     else
@@ -70,4 +70,5 @@ int main(void)
         printf("pere %f, fils %f: le max est atteint en (x=%d, y=%d) et vaut %f\n", maxp, maxf, x_maxp, y_maxp, maxp);
     else
         printf("fils %f, pere %f: le max est atteint en (x=%d, y=%d) et vaut %f\n", maxf, maxp, x_maxf, y_maxf, maxf);
+
 }

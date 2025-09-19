@@ -9,8 +9,7 @@
 
 #define N 50000
 
-#define K 4
-
+int K;
 double *tab_max;
 int *tab_x;
 int *tab_y;
@@ -18,6 +17,8 @@ int *tab_y;
 int **tube;
 
 void init(){
+    printf("Entrez le nombre de processus (K>=1) : ");
+    scanf("%d", &K);
 
     // calloc ou malloc
     tab_max = (double *)calloc(K, sizeof(double));
