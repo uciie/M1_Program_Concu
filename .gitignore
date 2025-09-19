@@ -1,5 +1,6 @@
 td_*/*.exe
 td_*/*.out
+td_*/*.class
 td_*/[^.]*
 test
 test.c
