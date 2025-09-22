@@ -4,3 +4,5 @@ td_*/*.class
 #td_*/[^.]*
 test
 test.c
+.idea
+.vscode
